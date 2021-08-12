@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CV</title>
+        <link rel="stylesheet" href="stylecv.css" />
+    </head>
+<header> <strong>  <marquee behavior="alternate"> BIENVENU DANS MON CV</marquee> </strong> </header>
+    <body>
+        <div id="main"></div>
+
+        <div id="contenu">
+            <div id="photo">
+                <img src="photo.png" onclick="myFunction1()" alt="ma photo d'identité">
+                <script>
+                    function myFunction1() {
+                        document.getElementById("photo").innerHTML = '<img src ="photo.png" style="width:5%; height=5%;" onclick="default1()"/>';
+                    }
+                    function default1(){
+                        document.getElementById("photo").innerHTML = '<img src="photo.png" style="width:250px;" onclick="myFunction1()"/>';
+                    }
+                </script>
+            </div>
+            
+            <h1>  <B><font color="red"> D</FONT></B>iakalia<B><font color="red"> K</FONT></B>ONATE</h1><hr>
+            <section>
+                <h2>Mon expérience</h2>
+
+                <ul>
+                    <li><strong>De Juin-Septembre 2020</strong> :Formation en anglais a L’ICLA (Institut Canadien de Langue en Afrique) niveau
+                        Intermédiaire supérieur.</li>
+                    <li><strong>Janvier-Avril 2020</strong> : Stage en installation de fibre optique dans la société SEDITEL SARL.</li>
+                    <li><strong>JUILLET-DECEMBRE 2019 </strong> : Stage en maintenance informatique au TECHNOLAB-ISTA.</li>
+                     <li><strong>JUILLET – OCTOBRE 2018</strong>  Formation en maintenance informatique au TECHNOLAB-ISTA </li>
+                </ul>
+               
+            </section>
+
+            <section>
+                <h2>Mes compétences</h2>
+
+                <ul>
+                    <li>HTML5 et CSS3</li>
+                    <li>Python niveau intermediaire</li>
+                    <li>maintenance informatique</li>
+                    <li>installation fibre optique</li>
+                    <li> deblocage mot de passe pc</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Ma formation</h2>
+                <li> <strong>2019</strong> DUT en analyse programmation</li>
+                <li> <strong>2017</strong>  BT2 en comptabilité</li>
+                <li> <strong>2015</strong> CAP en comptabilité</li>
+            </section>
+            
+        </div>
+        <section>
+            <div class="btn">
+                
+                <button onclick="myFunction()">TELECHARGER MON CV</button>
+                 <script>
+                 function myFunction() {
+                   alert("voici mon cv");
+                 }
+                 </script>
+            </div>
+        </section>
+      
+
+       <footer>
+           ORANGE DIGITAL KALANSO
+       </footer>
+    </body>
+</html>

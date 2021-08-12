@@ -1,0 +1,74 @@
+body
+{
+    background-color: rgb(214, 214, 199);
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+    float: left;
+    border: 1px solid rgb(210, 231, 91);
+    box-shadow: 2px 2px 2px black;
+    width: 5%;
+    height: 5%;
+    box-shadow: aqua;
+}
+
+h2
+{
+    color: #FFA500;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#main, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: 3%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#contenu
+{
+    width: 85%;
+}
+
+
+.btn{
+    text-align: center;
+}
+footer{
+    text-align: left;
+    background-color: teal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+header{
+    color: tomato;
+
+}
