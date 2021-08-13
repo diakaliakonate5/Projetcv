@@ -34,7 +34,7 @@ footer p{
     text-align: center;
 }
 footer a{
-    color: #fff;
+    color: rgb(199, 145, 145);
 }
 
 /*SECTIONS*/
@@ -45,8 +45,8 @@ section{
     width: 100%;
     padding-bottom: 20px;
     margin: 20px auto;
-    box-shadow: 0px 0px 10px #bbb;
-    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(168, 148, 148);
+    background-color: rgb(255, 246, 246);
 }
 
 section h2{
@@ -178,7 +178,7 @@ section > div{
 @media screen and (min-width: 980px){
     section{
         width: 80%;
-        box-shadow: 0px 0px 10px #bbb;
+        box-shadow: 0px 0px 10px rgb(216, 192, 192);
         
     }
     a:hover{
@@ -240,7 +240,7 @@ section > div{
 header, footer{
     width: 100%;
     padding: 20px 0px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwmjfO8k8rNJ4mPGkbu1a0MMP9J5cTb9vojA&usqp=CAU") #4f4f4f;
+    background: url("https://images.alphacoders.com/979/thumb-1920-979697.jpg") #4f4f4f;
     box-shadow: 0px 0px 15px #333;
 }
 header{
@@ -256,17 +256,18 @@ header h1{
 }
 
 footer{
-    border-top: 2px solid #fff;
+    border-top: 2px solid rgb(20, 19, 19);
 }
 footer p{
     width: 90%;
     margin: 0 auto;
-    color: #fff;
+    color: rgb(19, 18, 18);
     text-align: center;
+    text-decoration-style: double;
+    font-size: large;
 }
-footer a{
-    color: #fff;
-}
+
+
 footer img{
     width: 5%;
     height: 5%;
